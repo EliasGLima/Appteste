@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Pega a chave da API do Streamlit Secrets
-API_KEY = st.secrets["AIzaSyCRguIGKpbSZ-_iUnV8LYUbTpKbjxVTEUc"]
+API_KEY = st.secrets["YOUTUBE_API_KEY"]
 
 # Função para buscar vídeos no YouTube
 def buscar_videos_por_hashtag(api_key, hashtag, max_results=10):
